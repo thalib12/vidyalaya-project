@@ -1,0 +1,113 @@
+.container {
+  width: 100%;
+  padding-top: 30px;
+  min-height: 100vh;
+  height: 100%;
+  background: rgb(0, 0, 0);
+  background: linear-gradient(
+    41deg,
+    rgba(0, 0, 0, 1) 33%,
+    rgba(19, 47, 42, 1) 100%
+  );
+}
+
+.dragger {
+  text-align: center;
+  border: 2px dashed #3e3e3e;
+  background-color: #555252;
+  color: #e0dddd;
+  border-radius: 8px;
+  padding: 20px;
+  width: 30%;
+  margin: auto;
+  cursor: pointer;
+}
+
+.p-t-60 {
+  padding-top: 60px;
+}
+
+.input-container {
+  padding: 25px;
+  width: 20%;
+  background-color: #555252;
+  margin: auto;
+  border-radius: 8px;
+  color: #e0dddd;
+  font-weight: 500px;
+  margin-top: 8px;
+  margin-bottom: 8px;
+
+  .page-input {
+    width: 98%;
+    border-radius: 8px;
+    height: 40px;
+  }
+
+  .page-export-btn {
+    height: 60px;
+    width: 100%;
+    margin-top: 24px;
+    border-radius: 8px;
+  }
+}
+
+.head-text {
+  color: #e0dddd;
+  text-align: center;
+}
+
+.flex {
+  display: flexbox;
+}
+
+.pdf-container {
+  cursor: pointer;
+  width: 100px;
+  .pdf-img {
+    width: 100%;
+  }
+  .pdf-name {
+    text-align: center;
+    color: white;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  padding: 20px 8px 8px 8px;
+  border: #555252 2px solid;
+  border-radius: 8px;
+}
+
+.all-pdfs {
+  display: flex;
+  gap: 13px;
+  overflow: unset !important;
+  height: auto;
+  flex-wrap: wrap;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+}
+
+.view-all-btn {
+  margin-left: 10%;
+  margin-bottom: 30px;
+  text-decoration: none;
+  color: white;
+  border: 1px solid grey;
+  width: 100px;
+  height: 40px;
+  background-color: #555252;
+  color: #e0dddd;
+  border-radius: 8px;
+}
+
+@media only screen and (max-width: 600px) {
+  .dragger,
+  .input-container {
+    width: 80%;
+  }
+}
+
+.login-container{
+margin-top: 15%;
+}
